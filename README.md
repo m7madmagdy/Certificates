@@ -1,10 +1,13 @@
 # Certificates
 
 ## App Images
-<img src="https://m7madmagdy.github.io/pages/1.png" width="190px" align="left">
-<img src="https://m7madmagdy.github.io/pages/2.png" width="190px" align="left">
-<img src="https://m7madmagdy.github.io/pages/3.png" width="190px" align="left">
-<img src="https://m7madmagdy.github.io/pages/4.png" width="190px" align="left">
+<p>
+<img src="https://m7madmagdy.github.io/pages/1.png" width="175px" align="left">
+<img src="https://m7madmagdy.github.io/pages/2.png" width="175px" align="left">
+<img src="https://m7madmagdy.github.io/pages/3.png" width="175px" align="left">
+<img src="https://m7madmagdy.github.io/pages/4.png" width="175px" align="left">
+<p/>
+<br/>
 
  ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
