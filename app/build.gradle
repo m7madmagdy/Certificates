@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
+    id 'realm-android'
 }
 
 android {
@@ -33,6 +34,12 @@ android {
     buildFeatures {
         viewBinding true
     }
+    dataBinding{
+        enabled = true
+    }
+    realm {
+        syncEnabled = true
+    }
 }
 
 dependencies {
@@ -48,10 +55,8 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.71828'
 
     //Recycler, CardView & Shimmer Animation
-    implementation 'com.facebook.shimmer:shimmer:0.5.0@aar'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'de.hdodenhof:circleimageview:3.1.0'
 
     //Retrofit & OKHttp
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'

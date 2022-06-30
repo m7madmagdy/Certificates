@@ -5,5 +5,5 @@ import retrofit2.http.GET
 
 interface ApiServices {
     @GET("certificate.json")
-    fun getCertificates(): Call<List<Certificate>>
+    fun getCertificates(): Call<ArrayList<Certificate>>
 }
